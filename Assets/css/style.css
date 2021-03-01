@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* adding background colors to page,
+and aligns  flex items at the center of the page*/
+body {
+  background-color: #d9dcd6;
+  justify-content: center;
+}
+/* header {
+  display: flex;
+  width: 100%;
+  display: flex;
+  font-family: "Arial", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  color: blanchedalmond;
+} */
+.header-top {
+  width: 100%;
+  background-color: #444747;
+  margin: 0;
+}
+header img {
+  width: 100%;
+  height: 200px;
+}
+header h1 {
+  position: top;
+  display: inline-block;
+  font-size: 50px;
+  padding: 0 2px 0 40px;
+}
+header h1:hover {
+  background-color: dimgray;
+  font-size: 50px;
+  color: #192b33;
+  background-color: aqua;
+}
+nav {
+  float: right;
+}
+
+nav ul li {
+  /* display: inline-block; */
+  list-style-type: none;
+  margin-right: 20px;
+  margin-left: 25px;
+  display: flex;
+  float: left;
+}
+nav a {
+  color: aqua;
+  text-decoration: underline;
+  font-size: 20px;
+}
+a:visited {
+  color: plum;
+}
+header h2 {
+  display: inline-block;
+  padding: 10px;
+  color: #192b33;
+  background-color: aqua;
+  clear: both;
+}
+
+section {
+  display: flex;
+  color: #192b33;
+  margin-top: 10px;
+  background-color: white;
+}
+.section-title {
+  font-size: 48px;
+  color: blanchedalmond;
+  padding-right: 40px;
+  width: 20%;
+  border-right: solid;
+  text-align: right;
+  background-image: url(/Assets/Images/stone-wall.jpg);
+}
+.section-content {
+  width: 80%;
+  text-align: left;
+  padding-left: 20px;
+  justify-content: center;
+  background-color: lightgray;
+
+  /* float: right; */
+}
+#my-bio-image {
+  height: 200px;
+  width: 200px;
+  border-color: #192b33;
+  border-radius: 30px;
+  float: left;
+  margin: 20px;
+}
+
+/* .work-image-link {
+  height: 200px;
+  border-radius: 10px;
+} */
+#first-project-image {
+  position: relative;
+  margin-top: 10px;
+  margin-right: 20px;
+  /* height: 25%; */
+  width: 99%;
+  border-radius: 30px;
+}
+.project-desc {
+  position: absolute;
+  color: black;
+  margin-right: 100px;
+}
+.contact-me ul li {
+  display: inline;
+  padding-top: 30px;
+  margin-right: 20px;
+  margin-left: 25px;
+}
+.contact-me ul {
+  padding-top: 20px;
+}
+
+footer {
+  margin-top: 10px;
+  width: 100%;
+  background-image: url(/Assets/Images/stone-wall.jpg);
+  font-family: "Arial", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  color: blanchedalmond;
+  padding: 20px;
+  position: relative;
+  clear: both;
+}
+.first-project-content {
+  margin-bottom: 25px;
+  /* background-image: url(/Assets/Images/horiseon2.png); */
+  /* background-size: cover;
+  background-position: center; */
+  /* padding: 20px; */
+}
+.future-project-content {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+.future-project-content img {
+  height: 300px;
+  width: 1000px;
+  border-radius: 30px;
+}
+
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=40);
+}
+@media screen and (max-width: 992px) {
+  header {
+    background: #772014;
+  }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: #bb8588;
+  }
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+  .sample-img {
+    background-color: #8ac4ff;
+  }
+}
