@@ -78,7 +78,7 @@ section {
   width: 20%;
   border-right: solid;
   text-align: right;
-  background-image: url(/Assets/Images/stone-wall.jpg);
+  background-image: url(../Images/stone-wall.jpg);
 }
 .section-content {
   width: 80%;
@@ -128,7 +128,7 @@ section {
 footer {
   margin-top: 10px;
   width: 100%;
-  background-image: url(/Assets/Images/stone-wall.jpg);
+  background-image: url(../Images/stone-wall.jpg);
   font-family: "Arial", "Gill Sans MT", "Trebuchet MS", sans-serif;
   color: blanchedalmond;
   padding: 20px;
