@@ -9,6 +9,10 @@ body {
   background-color: #d9dcd6;
   justify-content: center;
 }
+/* Adds a background image to the header section */
+header {
+  background-image: url(../Images/stone-wall.jpg);
+}
 /* header {
   display: flex;
   width: 100%;
@@ -16,29 +20,37 @@ body {
   font-family: "Arial", "Gill Sans MT", "Trebuchet MS", sans-serif;
   color: blanchedalmond;
 } */
-.header-top {
+/* .header-top {
   width: 100%;
-  background-color: #444747;
   margin: 0;
-}
-header img {
+} */
+/* header img {
   width: 100%;
   height: 200px;
-}
+} */
+
+/* Attempted to have header and nav in same row with background
+separate from image background */
 header h1 {
-  position: top;
   display: inline-block;
+  background-color: #192b33;
+  color: blanchedalmond;
   font-size: 50px;
-  padding: 0 2px 0 40px;
+  margin: 50px 2px 50px 40px;
+  padding: 5px;
 }
+/* Changes the background color of h1 when cursor hovers */
 header h1:hover {
   background-color: dimgray;
   font-size: 50px;
   color: #192b33;
   background-color: aqua;
 }
+/* Nav floats a little high */
 nav {
   float: right;
+  margin: 50px 2px 50px 40px;
+  padding: 5px;
 }
 
 nav ul li {
@@ -58,11 +70,15 @@ a:visited {
   color: plum;
 }
 header h2 {
-  display: inline-block;
-  padding: 10px;
+  /* display: inline-block; */
+  margin: 10px 70px 20px 0;
+  padding: 5px;
   color: #192b33;
   background-color: aqua;
-  clear: both;
+  float: right;
+}
+main {
+  position: relative;
 }
 
 section {
@@ -70,6 +86,8 @@ section {
   color: #192b33;
   margin-top: 10px;
   background-color: white;
+  clear: both;
+  position: relative;
 }
 .section-title {
   font-size: 48px;
@@ -86,8 +104,6 @@ section {
   padding-left: 20px;
   justify-content: center;
   background-color: lightgray;
-
-  /* float: right; */
 }
 #my-bio-image {
   height: 200px;
@@ -97,23 +113,20 @@ section {
   float: left;
   margin: 20px;
 }
-
-/* .work-image-link {
-  height: 200px;
-  border-radius: 10px;
-} */
+.about-me p {
+  padding-top: 50px;
+}
 #first-project-image {
   position: relative;
   margin-top: 10px;
   margin-right: 20px;
-  /* height: 25%; */
+
   width: 99%;
   border-radius: 30px;
 }
 .project-desc {
   position: absolute;
   color: black;
-  margin-right: 100px;
 }
 .contact-me ul li {
   display: inline;
@@ -135,13 +148,11 @@ footer {
   position: relative;
   clear: both;
 }
+/* Sets first content bottom margin */
 .first-project-content {
   margin-bottom: 25px;
-  /* background-image: url(/Assets/Images/horiseon2.png); */
-  /* background-size: cover;
-  background-position: center; */
-  /* padding: 20px; */
 }
+/* Sets content section*/
 .future-project-content {
   margin-top: 10px;
   display: flex;
@@ -150,12 +161,13 @@ footer {
   justify-content: space-between;
   border-radius: 30px;
 }
+/* Setting equal height and width for images */
 .future-project-content img {
   height: 300px;
   width: 1000px;
   border-radius: 30px;
 }
-
+/* hover over image reduces the opacity */
 img:hover {
   opacity: 0.5;
   filter: alpha(opacity=40);
@@ -173,9 +185,11 @@ img:hover {
   }
 }
 
-/* Small smartphones - image placeholders change color */
+/* Small smartphones - future projects images are reduced */
 @media screen and (max-width: 576px) {
-  .sample-img {
-    background-color: #8ac4ff;
+  .future-project-content img {
+    width: 375px;
+    height: 150px;
+    border: 10px;
   }
 }
