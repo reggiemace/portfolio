@@ -1,224 +1,102 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+#header-top {
+  background-color: azure;
+  color: white;
 }
-/* adding background colors to page,
-and aligns  flex items at the center of the page*/
-body {
-  background-color: #ffffff;
-  justify-content: center;
+#my-name {
+  font-size: 3.3rem;
+  padding-left: 10rem;
 }
-/* Adds a background image to the header section */
-header {
-  background-color: rgb(19, 19, 44);
-}
-/* header {
-  display: flex;
-  width: 100%;
-  display: flex;
-  font-family: "Arial", "Gill Sans MT", "Trebuchet MS", sans-serif;
-  color: blanchedalmond;
-} */
-/* .header-top {
-  width: 100%;
-  margin: 0;
-} */
-/* header img {
-  width: 100%;
-  height: 200px;
-} */
-
-/* Attempted to have header and nav in same row with background
-separate from image background */
-header h1 {
-  display: inline-block;
-  background-color: aqua;
-  color: rgb(19, 19, 44);
-  font-size: 50px;
-  margin: 20px;
-  padding: 5px 5px 5px 50px;
-}
-/* Changes the background color of h1 when cursor hovers */
-header h1:hover {
-  background-color: dimgray;
-  font-size: 50px;
-  color: #192b33;
-  background-color: aqua;
-}
-/* Nav floats a little high */
-nav {
-  float: right;
-  margin: 50px 2px 50px 40px;
-  padding: 5px;
-}
-
-nav ul li {
-  /* display: inline-block; */
-  list-style-type: none;
-  margin-right: 20px;
-  margin-left: 25px;
-  display: flex;
+#my-ul {
+  margin-left: 50rem;
+  font-size: 1.5rem;
   float: left;
 }
-nav a {
-  color: aqua;
-  text-decoration: underline;
-  font-size: 20px;
+#header-bottom {
+  height: 15vh;
+  color: blue;
+  background-image: url("/Assets/Images/cool-background.png");
+  background-size: 100%;
+  text-align: center;
+  padding: 5rem;
 }
-a:visited {
-  color: plum;
-}
-header h2 {
-  /* display: inline-block; */
-  margin: 10px 70px 20px 0;
-  padding: 5px;
-  color: #192b33;
-  background-color: aqua;
-  float: right;
-}
-.sub-header {
-  background-image: url(../Images/stone-wall.jpg);
-  height: 150px;
-  background-size: 100% 100%;
-}
-.sub-header h2 {
-  color: #192b33;
-  background-color: aqua;
-  padding: 2px;
-  margin-top: 100px;
-  float: right;
+
+.title {
+  background-color: aliceblue;
+  border-right: cornflowerblue;
+  border-right: solid;
+  padding-top: 5rem;
 }
 main {
-  position: relative;
+  margin-top: 0.5rem;
+}
+.info {
+  overflow: scroll;
+  background-color: aliceblue;
+  padding-left: 5rem;
+  padding-top: 3rem;
 }
 
-section {
-  display: flex;
-  color: #192b33;
-  margin-top: 10px;
-  background-color: white;
-  clear: both;
-  position: relative;
-}
-.section-title {
-  font-size: 48px;
-  color: #192b33;
-  padding-right: 40px;
-  width: 20%;
-  border-right: solid;
-  text-align: right;
-  /* background-image: url(../Images/stone-wall.jpg); */
-}
-.section-content {
-  width: 80%;
-  text-align: left;
-  padding-left: 20px;
-  justify-content: center;
-  background-color: #ffffff;
-}
 #my-bio-image {
+  border-radius: 0.5rem;
+}
+#my-bio {
+  padding-top: 3rem;
+  font-size: 1.5rem;
+}
+main h2,
+footer h2 {
+  text-align: right;
+}
+#about-me {
+  height: 20vh;
+}
+#my-projects {
+  height: 50vh;
+  margin-top: 0.5rem;
+}
+#horiseon-project-button {
+  position: relative;
+  left: 1rem;
+  top: -3rem;
+}
+.show-mini {
   height: 200px;
-  width: 200px;
-  border-color: #192b33;
-  border-radius: 30px;
-  float: left;
-  margin: 20px;
-  border: solid;
-  border-radius: 30px;
+  width: 350px;
 }
-.about-me p {
-  padding-top: 50px;
-}
-#first-project-image {
+.show-mini-button {
   position: relative;
-  margin-top: 10px;
-  margin-right: 20px;
-  width: 99%;
-  border: solid;
-  border-radius: 30px;
-  border-radius: 30px;
+  right: 21rem;
+  top: 4.8rem;
 }
-.project-desc {
-  position: relative;
-  color: black;
-  padding: 5px;
-  background-color: aqua;
-  left: 57px;
-  top: -49px;
+#mini-projects {
+  margin-top: 0.5rem;
 }
-.contact-me ul li {
+
+footer #contact-me {
+  margin-top: 0.5rem;
+  height: 10vh;
+  background-image: url("/Assets/Images/cool-background.png");
+  background-size: 100%;
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 1.5rem;
   display: inline;
-  padding-top: 30px;
-  margin-right: 20px;
-  margin-left: 25px;
+  color: white;
 }
-.contact-me ul {
-  padding-top: 20px;
-}
-
-footer {
-  margin-top: 10px;
-
-  /* background-image: url(../Images/stone-wall.jpg); */
+footer li {
   display: inline;
-  font-family: "Arial", "Gill Sans MT", "Trebuchet MS", sans-serif;
-  color: blanchedalmond;
-  /* padding: 20px; */
-  position: relative;
-  clear: both;
-  margin-bottom: 20px;
-}
-footer .section-content {
-  padding-left: 600px;
-}
-footer .section-content li {
-  display: inline;
-  margin: 10px;
-}
-/* Sets first content bottom margin */
-.first-project-content {
-  margin-bottom: 25px;
-}
-/* Sets content section*/
-.future-project-content {
-  margin-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: 20px;
-  justify-content: space-between;
-  border-radius: 30px;
-}
-/* Setting equal height and width for images */
-.future-project-content img {
-  height: 300px;
-  width: 1000px;
-  border: solid;
-  border-radius: 30px;
-}
-/* hover over image reduces the opacity */
-img:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=40);
-}
-@media screen and (max-width: 992px) {
-  header {
-    background: #772014;
-  }
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-decoration: none;
 }
 
-/* Large smartphones - navbar changes color */
-@media screen and (max-width: 768px) {
-  nav {
-    background-color: #bb8588;
-  }
+button {
+  border-radius: 0.4rem;
 }
-
-/* Small smartphones - future projects images are reduced */
-@media screen and (max-width: 576px) {
-  .future-project-content img {
-    width: 375px;
-    height: 150px;
-    border: 10px;
-  }
+button:hover {
+  background-color: blue;
+  color: white;
+}
+footer a {
+  color: blue;
 }

@@ -1,5 +1,1 @@
-# portfolio
-
-A sample of full stack projects while a student at JH Bootcamp.
-
-![Screen Shot 2021-03-01 at 9 42 33 PM](https://user-images.githubusercontent.com/54730132/109589117-dbda3480-7ad7-11eb-9780-6503ccbade14.png)
+This portfolio is a sample of work that I was assigned while a student at the John Hopkins Full Stack Development Course. This page along with links to other pages are continuously updated, as I learn different material during the course of my web development studies.
