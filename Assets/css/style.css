@@ -7,9 +7,8 @@
   padding-left: 10rem;
 }
 #my-ul {
-  margin-left: 50rem;
-  font-size: 1.5rem;
   float: left;
+  font-size: 1.5rem;
 }
 #header-bottom {
   height: 15vh;
@@ -81,7 +80,7 @@ footer #contact-me {
   padding-top: 5rem;
   font-size: 1.5rem;
   display: inline;
-  color: white;
+  color: blue;
 }
 footer li {
   display: inline;
