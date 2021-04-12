@@ -1,17 +1,19 @@
+* {
+  box-sizing: border-box;
+}
 #header-top {
   background-color: azure;
   color: white;
 }
 #my-name {
   font-size: 3.3rem;
-  padding-left: 10rem;
+  text-indent: 5px;
 }
 #my-ul {
   float: left;
   font-size: 1.5rem;
 }
 #header-bottom {
-  height: 15vh;
   color: blue;
   background-image: url("/Assets/Images/cool-background.png");
   background-size: 100%;
@@ -47,13 +49,13 @@ footer h2 {
   text-align: right;
 }
 #about-me {
-  height: 20vh;
+  /* height: 20vh; */
 }
 #my-projects {
-  height: 50vh;
+  /* height: 50vh; */
   margin-top: 0.5rem;
 }
-#horiseon-project-button {
+#horiseon-project-text {
   position: relative;
   left: 1rem;
   top: -3rem;
@@ -73,12 +75,12 @@ footer h2 {
 
 footer #contact-me {
   margin-top: 0.5rem;
-  height: 10vh;
+  /* height: 10vh; */
   background-image: url("/Assets/Images/cool-background.png");
   background-size: 100%;
   text-align: center;
-  padding-top: 5rem;
-  font-size: 1.5rem;
+  padding-top: 3rem;
+  font-size: 1.2rem;
   display: inline;
   color: blue;
 }
@@ -89,10 +91,12 @@ footer li {
   text-decoration: none;
 }
 
-button {
+span {
+  background-color: darkgrey;
+  padding: 0.3rem;
   border-radius: 0.4rem;
 }
-button:hover {
+span:hover {
   background-color: blue;
   color: white;
 }
