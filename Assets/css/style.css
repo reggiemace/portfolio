@@ -71,6 +71,7 @@ footer h2 {
 }
 #mini-projects {
   margin-top: 0.5rem;
+  position: relative;
 }
 
 footer #contact-me {
@@ -95,6 +96,7 @@ span {
   background-color: darkgrey;
   padding: 0.3rem;
   border-radius: 0.4rem;
+  position: absolute;
 }
 span:hover {
   background-color: blue;
