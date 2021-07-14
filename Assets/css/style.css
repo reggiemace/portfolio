@@ -33,24 +33,27 @@ main {
 .info {
   overflow: scroll;
   background-color: aliceblue;
-  padding-left: 5rem;
+  /* padding-left: 5rem; */
   padding-top: 3rem;
 }
 
 #my-bio-image {
+  padding-left: 5rem;
   border-radius: 0.5rem;
+  float: right;
 }
 #my-bio {
-  padding-top: 3rem;
+  padding-top: 5rem;
   font-size: 1.5rem;
+}
+#my-bio p {
+  float: left;
 }
 main h2,
 footer h2 {
   text-align: right;
 }
-#about-me {
-  /* height: 20vh; */
-}
+
 #my-projects {
   /* height: 50vh; */
   margin-top: 0.5rem;
@@ -61,8 +64,10 @@ footer h2 {
   top: -3rem;
 }
 .show-mini {
-  height: 200px;
-  width: 350px;
+  position: relative;
+  margin-bottom: 1.5rem;
+  height: 100%;
+  width: 100%;
 }
 .show-mini-button {
   position: relative;
@@ -71,7 +76,7 @@ footer h2 {
 }
 #mini-projects {
   margin-top: 0.5rem;
-  position: relative;
+  /* position: relative; */
 }
 
 footer #contact-me {
@@ -92,16 +97,7 @@ footer li {
   text-decoration: none;
 }
 
-span {
-  background-color: darkgrey;
-  padding: 0.3rem;
-  border-radius: 0.4rem;
-  position: absolute;
-}
-span:hover {
-  background-color: blue;
-  color: white;
-}
+
 footer a {
   color: blue;
 }
