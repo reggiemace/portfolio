@@ -10,143 +10,153 @@
     <title>Reginald Mace: Full Stack Web Development Portfolio</title>
 </head>
 
-<body>
-    <div class="wrapper">
-        <header>
-            <!-- Collapse Menu -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" id="my-name" href="#">Reginald Mace</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav mr-auto mt-2 mb-lg-0" id="my-ul">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#about_me">About Me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#my-projects">My Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact-me">Contact Me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Assets/docs/resume.pdf">Resume</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!--   Sub header -->
-            <div id="header-bottom" class="col-md-12">
-                <h2>“And everything you get, ya gotta work hard for it.”
-                    -- The Notorious B.I.G.</h2>
-            </div>
-        </header>
-        <main>
-            <!-- Bio Section -->
+<body class="container">
+    <header>
+        <!-- Collapse Menu -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
+                <a class="navbar-brand" id="my-name" href="#">Reginald Mace</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mb-lg-0" id="my-ul">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#about_me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#my-projects">My Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-me">Contact Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Assets/docs/resume.pdf">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--   Sub header -->
+        <div id="header-bottom" class="col-md-12">
+            <h2>“And everything you get, ya gotta work hard for it.”
+                -- The Notorious B.I.G.</h2>
+        </div>
+    </header>
+    <main>
+
+        <div class="row">
+            <div class="col-md-3 title">
+                <h2>About Me</h2>
+            </div>
+            <div class="col-md-9 info section-content" id="about-me">
                 <div class="row">
-                    <div class="col-md-3 title">
-                        <h2>About Me</h2>
+                    <div class="col-lg-2 col-md-12 col-sm-12"><img id="my-bio-image"
+                            src="Assets/Images/GitHubeProfilePic.jpg" alt="GitHub-Profile-Image" height="250px"
+                            width="250px">
                     </div>
-                    <div class="col-md-9 info section-content" id="about-me">
-                        <div class="row">
-                            <div class="col-lg-2 col-md-12 col-sm-12"><img id="my-bio-image" ALIGN="left"
-                                    src="Assets/Images/GitHubeProfilePic.jpg" alt="GitHub-Profile-Image" height="200px"
-                                    width="200px">
-                            </div>
-                            <div class="col-lg-8 col-md-12 col-sm-12" id="my-bio">
-                                <p>Hi!!! My name is Reginald Mace. I am a 22 year Army Veteran making the transition
-                                    from
-                                    Soldier to
-                                    a new career as full stack web developer. I am currently working as software project
-                                    lead
-                                    for DoD
-                                    program.
-                                    I really am interested in creating things and solving problems. I have sought ways
-                                    to
-                                    improve
-                                    existing skills and develop new skills by any means available that will accommodate
-                                    a busy
-                                    schedule.
-                                    I am a proud father and grandfather. I am originally from Charleston SC. I like
-                                    listening
-                                    to music and staying fit, which I find gets harder to do as you get older! Below is
-                                    a sample
-                                    of the
-                                    work that I've done while a student at John Hopkins Full Stack BootCamp. Please take
-                                    a look!</p>
-                            </div>
+                    <div class="col-lg-8 col-md-12 col-sm-12" id="my-bio">
+                        <p>Hi, My name is Reggie!!! I am a 22 year Army Veteran making the transition
+                            from
+                            Soldier to
+                            a new career as full stack web developer. I am currently working as software project
+                            lead
+                            for a DoD
+                            program.
+                            I am interested in creating things and solving problems. I have sought ways
+                            to
+                            improve
+                            existing skills and develop new skills by any means available that will accommodate
+                            a busy
+                            schedule.
+                            I am a proud father and grandfather. I am originally from Charleston SC. I like
+                            listening
+                            to music and staying fit, which I find gets harder to do as you get older! Below is
+                            a sample
+                            of the
+                            work that I've done while a student at John Hopkins Full Stack BootCamp. Please take
+                            a look!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projects Section -->
+        <div class="row">
+            <div class="col-md-3 title">
+                <h2> My Projects</h2>
+            </div>
+            <!-- 1st Project Featuring HTML and CSS -->
+            <div class="col-md-9 info" id="my-projects">
+                <div class="row container">
+                    <div class="col-12">
+                        <img src="Assets/Images/horiseon2.png" alt="horiseon2" width="100%">
+                    </div>
+                    <p>This project features <a href="https://reggiemace.github.io/refactor_code/">HTML and
+                            CSS</a> </p>
+                </div>
+
+                <!-- Mini Projects -->
+                <div class="row container" id="mini-projects">
+                    <div class="col-12 col-md-12 col-sm-12">
+                        <!-- Moments -->
+                        <div>
+                            <img src="Assets/Images/work_day-scheduler.png" alt="" class="show-mini">
+                            <p>This project features HTML & CSS and introduces<a
+                                    href="https://reggiemace.github.io/work-day-scheduler/"></a>
+                                <a href="https://reggiemace.github.io/code-quiz/">Moments</a>
+                            </p>
+                        </div>
+                        <div>
+                            <img src="Assets/Images/code-quiz-challenge.png" alt="" class="show-mini">
+                            <p>This project features objects and the use of <a href="">Local Storage</a></p>
+                        </div>
+                        <div>
+                            <img src="Assets/Images/password-generator.png" alt="" class="show-mini">
+                            <p>This project creates <a href="https://reggiemace.github.io/password_generator/">random
+                                    passwords</a>
+                                selected from a list of options that the user enters</p>
+                        </div>
+                        <div>
+                            <img src="Assets/Images/marvel-character_search.png" alt="" class="show-mini">
+                            <p>This project features the use of <a href="https://mcm1015.github.io/PR1_Marvel/">Third
+                                    Party APIs</a></p>
                         </div>
                     </div>
                 </div>
-                <!-- Projects Section -->
-                <div class="row">
-                    <div class="col-md-3 title">
-                        <h2> My Projects</h2>
-                    </div>
-                    <div class="col-md-9 info" id="my-projects">
-                        <div class="row">
-                            <div class="col-12">
-                                <a href=" https://reggiemace.github.io/refactor_code/"><img
-                                        src="Assets/Images/horiseon2.png" alt="horiseon2" width="100%"></a>
-                                <span id="horiseon-project-text">HTML and CSS</span>
-                            </div>
-                        </div>
-                        <div class="row" id="mini-projects">
-                            <div class="col-12 col-md-12 col-sm-12">
-                                <a href="https://reggiemace.github.io/work-day-scheduler/"><img
-                                        src="Assets/Images/work_day-scheduler.png" alt="" class="show-mini">
-                                    <span class="show-mini-button">Moments</span></a>
-                                <a href="https://reggiemace.github.io/code-quiz/"> <img
-                                        src="Assets/Images/code-quiz-challenge.png" alt="" class="show-mini">
-                                    <span class="show-mini-button">Objects</span></a>
-                                <a href="https://reggiemace.github.io/password_generator/"><img
-                                        src="Assets/Images/password-generator.png" alt="" class="show-mini">
-                                    <span class="show-mini-button">Random Stuff</span></a>
-                                <a href="https://mcm1015.github.io/PR1_Marvel/"><img
-                                        src="Assets/Images/marvel-character_search.png" alt="" class="show-mini">
-                                    <span class="show-mini-button">3rd
-                                        Party APIs</span></a>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- Contact Me Section -->
+        <div class="row">
+            <div class="col-md-3 title">
+                <h2> Contact Me</h2>
+            </div>
+            <div class="col-md-9 info" id="contact-me">
+                <div class="section-content">
+                    <ul>
+                        <li>
+                            Phone: 843.276.4223
+
+                        </li>
+                        <li>
+                            <a href="mailto:reginaldmace36@gmail.com">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/reggiemace" target="_blank">Github</a>
+
+                        </li>
+                        <li>
+                            <a href="http://www.linkedin.com/in/reginaldmace" target="_blank">LinkedIn</a>
+                        </li>
+                    </ul>
                 </div>
-                <footer>
-                    <!-- Contact Me Section -->
-                    <div class="row">
-                        <div class="col-md-3 title">
-                            <h2> Contact Me</h2>
-                        </div>
-                        <div class="col-md-9 info" id="contact-me">
-                            <div class="section-content">
+            </div>
+        </div>
+    </footer>
 
-
-                                <ul>
-                                    <li>
-                                        Phone: 843-276-4223
-                                    </li>
-                                    <li>
-                                        <a href="mailto:reginaldmace36@gmail.com">reginaldmace36@gmail.com</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/reggiemace" target="_blank">Github</a>
-
-                                    </li>
-                                    <li>
-                                        <a href="http://www.linkedin.com/in/reginaldmace" target="_blank">LinkedIn</a>
-
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-        </main>
     </div>
 
 
